@@ -1,7 +1,7 @@
 source "https://rubygems.org"
 
 # Bundle edge Rails instead: gem "rails", github: "rails/rails", branch: "main"
-gem "rails", "~> 8.0.2"
+gem "rails", "~> 8.0.3"
 # The original asset pipeline for Rails [https://github.com/rails/sprockets-rails]
 gem "sprockets-rails"
 # Use postgresql as the database for Active Record
@@ -11,11 +11,11 @@ gem "puma", ">= 5.0"
 # Use JavaScript with ESM import maps [https://github.com/rails/importmap-rails]
 gem "importmap-rails"
 # Hotwire's SPA-like page accelerator [https://turbo.hotwired.dev]
-gem "turbo-rails"
+gem "turbo-rails", ">= 2.0.17"
 # Hotwire's modest JavaScript framework [https://stimulus.hotwired.dev]
 gem "stimulus-rails"
 # Use Tailwind CSS [https://github.com/rails/tailwindcss-rails]
-gem "tailwindcss-rails", "~> 3.3.2"
+gem "tailwindcss-rails", "~> 4.0.0"
 # Build JSON APIs with ease [https://github.com/rails/jbuilder]
 gem "jbuilder"
 # Use Redis adapter to run Action Cable in production
@@ -31,9 +31,9 @@ gem "omniauth-rails_csrf_protection"
 
 gem "google-apis-gmail_v1", "~> 0.45.0"
 gem "font-awesome-sass"
-gem "good_job"
+gem "good_job", ">= 4.12.0"
 gem "stripe"
-gem "view_component"
+gem "view_component", ">= 4.0.0"
 gem "redcarpet"
 gem "honeybadger", "~> 6.0"
 
@@ -63,7 +63,7 @@ group :development, :test do
   gem "rubocop-rails-omakase", require: false
 
   # My own added test helpers!
-  gem "factory_bot_rails"
+  gem "factory_bot_rails", ">= 6.5.1"
 end
 
 group :development do
