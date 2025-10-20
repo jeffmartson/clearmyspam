@@ -71,7 +71,7 @@ group :development do
   gem "web-console"
   gem "guard-livereload", "~> 2.5", require: false
   gem "rack-livereload"
-  gem "annotaterb"
+  gem "annotaterb", ">= 4.20.0"
   gem "faker"
 end
 
