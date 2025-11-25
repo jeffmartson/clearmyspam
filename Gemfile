@@ -27,7 +27,7 @@ gem "jbuilder"
 # Google OAuth2 authentication.
 gem "devise"
 gem "omniauth-google-oauth2"
-gem "omniauth-rails_csrf_protection"
+gem "omniauth-rails_csrf_protection", ">= 2.0.0"
 
 gem "google-apis-gmail_v1", "~> 0.45.0"
 gem "font-awesome-sass"
